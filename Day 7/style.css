@@ -1,0 +1,22 @@
+h1{
+    color: skyblue;
+    background-color: gray;
+    /* padding:20px; */
+
+    /* padding: top right bottom left; */
+    padding: 20px 25px 16px 15px;
+
+    /* padding-top: 20px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    padding-right: 25px; */ 
+    /* border: border width, border-style border-color; */
+    /* border: 4px solid; */
+    /* border: 4px solid red; */
+
+
+    margin:20px;
+ 
+
+
+}
