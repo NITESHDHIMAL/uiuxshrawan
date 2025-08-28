@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .position{
+            border: 6px solid red;
+            width: 450px;
+
+            position: relative;
+        }
+        .box{
+            height: 150px;
+            width: 150px;
+            border: 2px solid; 
+            /* text-align: left; */
+            /* text-align: right; */
+            text-align: center; 
+            align-content: center;
+            /* align-content: end; */
+            /* align-content: start; */
+            font-size: 2rem; 
+        }
+
+        #static{
+            margin-top: 150px;
+            position:static;
+        }
+        #relative{
+            position: relative;
+            /* top: 100px; */
+            background-color: lightblue;
+        }
+        #absolute{
+            position: absolute;
+            right: 0;
+            background-color: green;
+            top: 0;
+        }
+
+        #fixed{
+            position: fixed;
+            /* background-color: goldenrod; */
+            right: 0;
+            bottom: 0;
+        }
+        #sticky{
+            position: sticky;
+            top: 0;
+            background-color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <!-- <h1>Css Position</h1>
+    <ol>
+        <li>static(default position)</li>
+        <li>absolute(relative to the parent) </li>
+        <li>relative(own position)</li>
+        <li>sticky(scroll)</li>
+        <li>fixed(scroll)</li>
+    </ol> -->
+
+
+    <div class="position">
+        <div class="box" id="static">static</div>
+        <div class="box" id="relative">relative</div>
+        <div class="box" id="absolute">absolute</div>
+        <div class="box" id="fixed">fixed</div>
+    </div>
+    <div class="box" id="sticky">sticky</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae mollitia beatae nisi odio, obcaecati magni adipisci pariatur fugit, dolores exercitationem, quasi doloremque? Sint illo eveniet quasi quidem dolore odit praesentium.</p>
+
+
+</body>
+</html>
