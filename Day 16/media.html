@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        *{
+        margin: 0;
+        }
+        .container{
+            background: green;
+            height: 100vh;
+        }
+
+        /* max-width => ending breakpoint */
+        /* @media screen and ( max-width: 768px ) {
+            .container{
+                background: blue;
+            }
+        } */
+
+        /* min-width => starting breakpoint  */
+        /* @media screen and ( min-width: 768px ) {
+            .container{
+                background: blue;
+            }
+        } */
+
+        /* orientation =>  
+        portrait => phone => height is greater that width
+         landscape => laptop => width is greater that height   */
+
+         /* @media ( orientation: portrait ) { */
+        @media ( orientation: landscape ) {
+            .container{
+                background: blue;
+            }
+        }
+        
+    </style>
+</head>
+<body> 
+    <div class="container"></div> 
+</body>
+</html>
